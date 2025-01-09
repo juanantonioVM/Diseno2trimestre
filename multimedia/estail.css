@@ -3,6 +3,11 @@
     src: url('./assets/fonts/3.ttf') format('truetype');
 }
 
-/* body {
-    font-family: 'FuenteSpider';
-} */
+body {
+    /* font-family: 'FuenteSpider'; */
+    background-color: #1a1a1a;
+}
+
+.barra {
+    background-color: #e01313;
+}
