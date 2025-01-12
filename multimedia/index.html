@@ -11,7 +11,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md barra navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-md barra navbar-dark">
         <div class="container-fluid">
             <!-- Logotipo -->
             <a class="navbar-brand" href="#">
@@ -37,8 +37,8 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbardrop"><i class="fi fi-rr-users-class"></i>&nbsp;&nbsp;Personajes</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Subpestaña 1</a>
-                            <a class="dropdown-item" href="#">Subpestaña 2</a>
+                            <a class="dropdown-item" href="#"><img width="25" src="https://img.icons8.com/ios/50/spiderman-new.png" alt="spiderman-new"/> Amigos de Peter Parker</a>
+                            <a class="dropdown-item" href="#"><img width="25" src="./assets/icons/ggoblin.jpg" alt="green-goblin"> Villanos</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -48,6 +48,33 @@
             </div>       
         </div>
     </nav>
+    <main>
+        <div class="container-fluid d-flex row pe-0 mt-5 pt-3">
+            <div class="col-12 col-md-4 bg-primary text-center ">
+                <img width="500" src="./assets/images/index/3.png" alt="Spiderman" class="img-fluid">
+                <img src="./assets/images/index/5.png" alt="Miles" class="img-fluid mt-5 d-none d-md-block d-xxl-none align-self-end">
+            </div>
+            <div class="col-12 col-md-8 text-light bg-success inter">
+                <h1 class="titulo text-center mt-3">¿Quien es Spiderman?</h1>
+                <p>
+                    <strong>Spiderman</strong>, también conocido como <strong>El Hombre Araña</strong>, es uno de los superhéroes más icónicos del universo de los cómics, creado por <strong>Stan Lee</strong> y <strong>Steve Ditko</strong> para Marvel Comics en 1962. 
+                    Su historia comienza con <strong>Peter Parker</strong>, un joven tímido y brillante estudiante de ciencias que, tras ser mordido por una araña radiactiva, 
+                    adquiere habilidades sorprendentes como la capacidad de trepar paredes, un sentido arácnido que lo alerta del peligro, y una fuerza sobrehumana.
+                </p>
+                <p>
+                    Más que sus poderes, lo que define a Spiderman es su humanidad. Desde los momentos más oscuros hasta sus victorias más heroicas, Peter enfrenta problemas cotidianos como cualquier persona: 
+                    pagar las cuentas, mantener sus relaciones y superar la pérdida de seres queridos. Todo ello mientras carga con una de las frases más célebres que le legó su tío Ben: "<strong>Un gran poder conlleva una gran responsabilidad</strong>".
+                </p>
+                <p>
+                    Vestido con su característico traje rojo y azul (aunque a veces cambia de diseño), Spiderman se convierte en el protector de Nueva York, enfrentándose a una amplia galería de villanos como 
+                    el Duende Verde, Doctor Octopus, Venom y el Buitre, mientras lucha por mantener el equilibrio entre su vida como héroe y como persona común.
+                </p>
+                <p>Spiderman no solo es un superhéroe; es un símbolo de perseverancia, valentía y empatía, enseñando que cualquiera puede convertirse en un héroe, sin importar su origen o situación.</p>
+                <img class="img-fluid justify-content-center d-none d-lg-block" src="./assets/images/index/2.jpg" alt="">
+                <!-- <video src="./assets/videos/01.mp4" height="300" controls></video> -->
+            </div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
