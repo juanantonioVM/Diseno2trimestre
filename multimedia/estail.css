@@ -3,8 +3,12 @@
     src: url('./assets/fonts/2.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'FuenteSpider2';
+    src: url('./assets/fonts/1.ttf') format('truetype');
+}
+
 body {
-    /* font-family: 'FuenteSpider'; */
     background-color: #1a1a1a;
 }
 
@@ -17,6 +21,16 @@ body {
     font-size: 5em;
 }
 
-.inter {
+.adaptaciones-titulo {
+    font-family: 'FuenteSpider2';
+    font-size: 2em;
+    color: #f9ec00;
+}
+
+.interlineado {
+    line-height: 3;
+}
+
+.inter2 {
     line-height: 2;
 }
