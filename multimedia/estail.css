@@ -12,6 +12,14 @@ body {
     background-color: #1a1a1a;
 }
 
+.bgcards1 {
+    background-color: #0b2f51;
+}
+
+.bgcards2 {
+    background-color: #801010;
+}
+
 .barra {
     background-color: #e01313;
 }
@@ -19,11 +27,21 @@ body {
 .titulo {
     font-family: 'FuenteSpider';
     font-size: 5em;
+    width: 0;
+    border-right: 2px solid #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(30) forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
 }
 
 .adaptaciones-titulo {
     font-family: 'FuenteSpider2';
-    font-size: 2em;
+    font-size: 1.7em;
     color: #f9ec00;
 }
 
