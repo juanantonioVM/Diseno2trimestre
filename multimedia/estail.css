@@ -9,6 +9,7 @@
 }
 
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #1a1a1a;
 }
 
@@ -51,4 +52,24 @@ body {
 
 .inter2 {
     line-height: 2;
+}
+
+.licencia {
+    font-size: 0.8em;
+    background-color: #121212;
+    color: #ffffff7c;
+}
+
+.licencia a {
+    color: #ffffff7c;
+    text-decoration: none;
+}
+
+.licencia a:hover {
+    color: #ffffff;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.6em;
 }
